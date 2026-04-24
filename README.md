@@ -11,7 +11,12 @@
 
 ## Ejercicio 1
 Calculemos los eigenvalores de: 
-$$A = \begin{pmatrix} 5 & -2 \\ -2 & 8 \end{pmatrix}$$
+$$ 
+    A = \begin{pmatrix} 
+        5 & -2 \\
+        -2 & 8 
+        \end{pmatrix}
+$$
 
 Calculamos el polinomio característico
 
