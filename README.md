@@ -12,24 +12,38 @@ En esta práctica exploramos el cálculo numérico de eigenvalores para matrices
 
 ## Ejercicio 1
 
-Calculemos los eigenvalores de: 
+Calculemos los eigenvalores de la matriz $A$:
 
-$$A = \begin{pmatrix} 5 & -2 \\ -2 & 8 \end{pmatrix}$$
+$$
+A = \begin{pmatrix} 
+5 & -2 \\ 
+-2 & 8 
+\end{pmatrix}
+$$
 
 Calculamos el polinomio característico:
 
-$$P_A(\lambda) = \det(A - \lambda I)$$
+$$
+P_A(\lambda) = \det(A - \lambda I)
+$$
 
-$$= \det \begin{pmatrix} 5 - \lambda & -2 \\ -2 & 8 - \lambda \end{pmatrix}$$
+$$
+= \det \begin{pmatrix} 5 - \lambda & -2 \\ -2 & 8 - \lambda \end{pmatrix}
+$$
 
-$$= (5 - \lambda)(8 - \lambda) - 4$$
+$$
+= (5 - \lambda)(8 - \lambda) - 4
+$$
 
-$$= \lambda^2 - 13\lambda + 36$$
+$$
+= \lambda^2 - 13\lambda + 36
+$$
 
-$$= (\lambda - 9)(\lambda - 4)$$
+$$
+= (\lambda - 9)(\lambda - 4)
+$$
 
 $\therefore$ Los eigenvalores son $\lambda_1 = 9$ y $\lambda_2 = 4$.
-
 ---
 
 ## Ejercicio 2
